@@ -32,7 +32,7 @@ public class StudentServiceImpl implements StudentService {
 
 	@Override
 	public List<Student> findAllByOrderByGpaDesc() {
-		return findAllByOrderByGpaDesc();
+		return repository.findAllByOrderByGpaDesc();
 	}
 
 	@Override
